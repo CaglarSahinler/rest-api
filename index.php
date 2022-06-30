@@ -7,8 +7,7 @@ header('Access-Control-Allow-Origin: *'); // Man kann auch extern auf die Datei 
 header('Content-Type: application/json; charset=utf-8'); // Alle Ausgaben werden in JSON formatiert
 
 require_once(__DIR__ . "/vendor/autoload.php");
-// test kommentar
-// noch ein test
+
 use app\controllers\Category;
 // Da die Category in einem namespace definiert wurde, müssen wir den namespace Bezeichnung angeben
 // also weil unter Category.php -> namespace app\controllers; ist
