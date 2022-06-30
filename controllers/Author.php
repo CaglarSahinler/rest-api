@@ -8,7 +8,7 @@ use app\core\Response;
 use app\core\Request;
 
 
-
+//Autor
 class Author extends Controller
 {
 
