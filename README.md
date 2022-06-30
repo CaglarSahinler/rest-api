@@ -6,7 +6,7 @@ Bücherverwaltung mit Rest-Api
 Um die Api ausführen zu können:
 
 Unter Terminal:
-/pfad/zu/rest-api/ $ <b>php -S localhost:8080</b>
+<b>/pfad/zu/rest-api/ $ php -S localhost:8080</b>
 
 Dann kann man über die URL: <b>http://localhost:8080/</b> auf die API zugreifen.
 
