@@ -19,6 +19,7 @@ class Router
         $methods = ['get','put','post','delete'];
         $method = z.b get
     */
+    
     public function add(string $route, array $methods, $callback)
     {
         foreach ($methods as $method) {      // die klasse und die Methode dieaufgerufen werden soll

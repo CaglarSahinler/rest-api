@@ -6,11 +6,10 @@ namespace app\core;
 class Request
 {
     public array $pathVariables = [];
+
     public function findSlashes(string $path)
     {
-
         $pathExploded = explode('/', $path);
-
         foreach ($pathExploded as $key => $value) {
             if ($value == "") {
                 unset($pathExploded[$key]);
