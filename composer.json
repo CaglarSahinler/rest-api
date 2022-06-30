@@ -1,0 +1,17 @@
+{
+    "name": "ibo/rest-api",
+    "authors": [
+        {
+            "name": "Caglar Sahinler",
+            "email": "caglar_sa@gmx.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+
+    }
+}
